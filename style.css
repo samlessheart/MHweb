@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	height: 300px;
+	width: 100%;
+	position: a;
+
+}
+
+.mhm {
+	height: 250px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.gear {
+	height: 150px;
+	position: absolute;
+	top: 70px;
+	left: 130px;
+	animation: wheel 4s linear infinite;
+
+}
+
+.gear1 {
+	height: 100px;
+	position: absolute;
+	top: 183px;
+	left: 69px;
+	animation: wheel 4s linear infinite;
+	animation-direction: reverse;
+
+}
+
+.logo1 {
+	height: 150px;
+	position: absolute;
+	top: 140px;
+	left: 150px;
+
+}
+
+@keyframes wheel {
+	100% {
+		transform: rotate(360deg);
+	}
+
+
+}
+
+.name-co {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	font-weight: bold;
+	font-size: 90px;
+	color: black;
+	text-align: center;
+}
+
+.mob {
+	position: absolute;
+	top: 10px;
+	right: 280px;
+
+	
+}
+.email {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #C0C0C0;
+	line-height: 50px;
+	text-align: center;
+
+
+
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	
+}
+
+
+.main-nav {
+	list-style-type: none;
+	display: inline;
+	padding-right: 50px;
+	font-size: 25px;
+	color: #2F4F4F;
+	font-weight: 600;
+} 
+
+ a {
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.banner1 {
+	
+	width: 100%;
+	margin-top: -17px;
+}
+
+
+
+.name-co1 {
+	
+	text-align: center;
+	margin-top: 50px;
+	font-size: 40px;
+	
+}
+
+.container-1 {
+	margin-top: -16px;
+	padding-top: 70px;
+	background-image: url('imagesmh/fence1.jpg');
+	background-size: cover;
+	height: 400px
+
+
+}
+
+.container-1 p {
+	margin-top: 80px; 
+	text-align: center;
+	text-shadow: #FFFFFF;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	background-color: #F0F8FF;
+	opacity: 0.7;
+}
+
+
+.display-4 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+
+
+	
+}
+.display-4 hr {
+	
+	width: 50%;
+	
+}
+
+.team {
+	display: flex;
+	justify-content: space-around;
+}
+
+#map {
+	height: 500px;
+	width: 40%;
+	margin-right: 40px;
+	margin-bottom: 20px
+	padding-top: 20px;
+	margin-top: 30px;
+}
+
+.cont-add {	
+	background-image: url('imagesmh/fence2.jpg');
+	background-size: cover;
+	height: 550px;
+	
+}
+
+.cont-add p {	
+	font-weight: 400;	
+}
+
+.address {
+	color: white;
+	text-shadow: 0px 1px black;
+	padding-top: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+.logo {
+	display: none;
+}
+.logo1 {
+	display: none;
+}
+
+.name-co {
+	font-size: 60px;
+}
+
+.main-nav {
+	display: block;
+}
+
+
+}
+
+@media (max-width: 576px) {
+
+	.logo {
+		display: none;
+	}
+	.logo1 {
+		display: none;
+	}
+	.mob {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	}
+
+	#map {
+	height: 500px;
+	width: 80%;
+	margin-right: 10px;
+	margin-left: 40px;
+	height: 400px;
+	}
+}
